@@ -13,15 +13,13 @@
     <title>First tutorial on Ajax</title>
 
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
     <script>
       // jQuery Code here!
-
       $(document).ready(function() {
          var commentCount = 2;
           $("button").click(function() {
